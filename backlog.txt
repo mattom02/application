@@ -1,0 +1,2 @@
+1.Stworzenie ogólnej klasy zakład
+2.Stworzenie funkcji do pobierania zakładu
