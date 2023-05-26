@@ -6,3 +6,14 @@ class Zaklad:
     self.stawka = stawka
     self.kurs = kurs
     self.data = datetime.datetime.now()
+    
+class Bukmacher:
+  def __init__(self):
+    self.zakłady = []
+    
+  def dodaj_zaklad(self, zaklad):
+    self.zaklady.append(zaklad)
+    
+  def oblicz_wypłate(self, stawka, kurs):
+    wygrana = stawka * kurs
+    return wygrana
