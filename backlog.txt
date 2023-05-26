@@ -1,3 +1,4 @@
 1.Stworzenie ogólnej klasy zakład
 2.Stworzenie funkcji do pobierania zakładu
-Stworzenie funkcji obliczającej wartość wygranej.
+3.Stworzenie klasy bukmacher
+4.Stworzenie funkcji obliczającej wartość wygranej.
