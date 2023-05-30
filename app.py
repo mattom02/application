@@ -28,3 +28,14 @@ class Bukmacher:
           return miejsce
       except ValueError:
         print("Podaj poprawny numer miejsca!")
+  
+  def miejsce_stawki(self):
+    while True:
+      try:
+        stawka = float(input("Podaj stawke zakładu: "))
+        if syawka <= 0:
+          print("Stawka musi być większa od zera!!!")
+        else:
+          return stawka
+      except ValueError:
+        print(" Podaj poprawną stawke")
