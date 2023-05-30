@@ -3,3 +3,6 @@
 3.Stworzenie klasy bukmacher
 4.Stworzenie funkcji obliczającej wartość wygranej.
 5.Dodanie funkcji miejsce zakładu.
+6.Zdefinowanie metody, która pobiera stawke zakładu od użytkownika.
+7.Zabezpieczenie aplikacji przed postawieniem ujemnej stawki zakładu.
+
