@@ -39,3 +39,15 @@ class Bukmacher:
           return stawka
       except ValueError:
         print(" Podaj poprawną stawke")
+        
+  def pobierz_kursy(self):
+    kursy = []
+    while True:
+        try:
+          ilosc_miejsc = int(input("Podaj ilosc miejsc w zakladzie: ")
+          if ilosc_miejsc < 2:
+            print("Podaj poprawna ilosc miejsc!")
+          else:
+            break
+        except ValueError:
+            print("Podaj poprawna ilosc miejsc!")
