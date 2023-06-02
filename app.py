@@ -51,3 +51,17 @@ class Bukmacher:
             break
         except ValueError:
             print("Podaj poprawna ilosc miejsc!")
+                             
+      for i in range(ilosc_miejsc):
+          while True:
+            try:
+                kurs = float(input(f"Podaj kurs dla miejsca {i+1}: "))
+                if kurs <= 0;
+                    print("Kurs musi byc większy od zera!")
+                else:
+                    kursy.append(kurs)
+                    break
+              except ValueErtor:
+                print ("Podaj poprawny kurs!") 
+           return kursy
+
