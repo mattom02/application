@@ -64,4 +64,19 @@ class Bukmacher:
               except ValueErtor:
                 print ("Podaj poprawny kurs!") 
            return kursy
+                             
+    def wyswietl_historie(self):
+        if not self.zaklady:
+	          print("Brak zakładów w historii.")
+	          return
 
+        print("Historia zakładów:")
+        for zaklad in self.zaklady:
+            print(f"Miejsce: {zaklad.miejsce}")
+	          print(f"Stawka: {zaklad.stawka}")
+	          print(f"Kurs: {zaklad.kurs}")
+	          print(f"Data: {zaklad.data}")
+	          print()
+                                  
+                         
+                             
