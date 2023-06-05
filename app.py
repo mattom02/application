@@ -81,6 +81,7 @@ class Bukmacher:
                          
     def main_menu(self):
 	while True:
+			     
 	    print("menu głowne: ")
 	    print("1. Dodaj zakład")
 	    print("2. Wyświetl historie zakładów"
