@@ -84,7 +84,7 @@ class Bukmacher:
 			     
 	    print("menu głowne: ")
 	    print("1. Dodaj zakład")
-	    print("2. Wyświetl historie zakładów"
+	    print("2. Wyświetl historie zakładów")
             print("3. Wyjście")
 		  
             wybor = input("wybierz opcje: "0)
