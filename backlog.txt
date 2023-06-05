@@ -6,4 +6,5 @@
 6.Zdefinowanie metody, która pobiera stawke zakładu od użytkownika.
 7.Zabezpieczenie aplikacji przed postawieniem ujemnej stawki zakładu.
 8.Stworzenie funkcji wyświetlającej kurs.
-9. Dodanie funkcji, która umożliwa sprawdzanie historii naszych zakładów.
+9.Dodanie funkcji, która umożliwa sprawdzanie historii naszych zakładów.
+10.Funkcja, która pobiera od użydkownika wybór z opcji menu
