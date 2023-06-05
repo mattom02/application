@@ -79,4 +79,14 @@ class Bukmacher:
 	          print()
                                   
                          
-                             
+    def main_menu(self):
+	while True:
+	    print("menu głowne: ")
+	    print("1. Dodaj zakład")
+	    print("2. Wyświetl historie zakładów"
+            print("3. Wyjście")
+		  
+            wybor = input("wybierz opcje: "0)
+	    if wybor == "1" :
+		kursy = self.pobierz_kursy()
+		  miejsce = self.miejsce_zakładu()
