@@ -7,4 +7,4 @@
 7.Zabezpieczenie aplikacji przed postawieniem ujemnej stawki zakładu.
 8.Stworzenie funkcji wyświetlającej kurs.
 9.Dodanie funkcji, która umożliwa sprawdzanie historii naszych zakładów.
-10.Funkcja, która pobiera od użydkownika wybór z opcji menu
+10.Funkcja, która pobiera od użytkownika wybór z opcji menu
